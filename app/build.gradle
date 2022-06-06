@@ -53,12 +53,12 @@ dependencies {
 
     //google
     implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0' //DO NOT UPGRADE, THE LATEST VERSION CAUSES MEMORY LEAKS
+    implementation 'com.google.android.material:material:1.6.1' //DO NOT UPGRADE, THE LATEST VERSION CAUSES MEMORY LEAKS
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     implementation 'com.google.android.play:core:1.10.3'
 
     //firebase
-    implementation platform('com.google.firebase:firebase-bom:30.0.2')
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
     implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-messaging'
     implementation 'com.google.firebase:firebase-analytics'
@@ -70,13 +70,13 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.7'
 
     //animations
-    implementation 'com.airbnb.android:lottie:5.0.3'
+    implementation 'com.airbnb.android:lottie:5.2.0'
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation 'io.github.everythingme:overscroll-decor-android:1.1.1'
 
     //ads
-    implementation 'com.google.android.gms:play-services-ads:20.6.0'
-    implementation 'com.google.ads.mediation:facebook:6.10.0.0'
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+    implementation 'com.google.ads.mediation:facebook:6.11.0.1'
 
     //other libs
     implementation 'com.mindorks.android:prdownloader:0.6.0'
